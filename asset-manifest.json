@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Jomar0019/myportfolio/static/css/main.3757c491.css",
+    "main.js": "/Jomar0019/myportfolio/static/js/main.7e56ef84.js",
+    "static/media/realestate.jpg": "/Jomar0019/myportfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/react.png": "/Jomar0019/myportfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/Jomar0019/myportfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/Jomar0019/myportfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html-5.png": "/Jomar0019/myportfolio/static/media/html-5.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/Jomar0019/myportfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/github.png": "/Jomar0019/myportfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/css-3.png": "/Jomar0019/myportfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/Jomar0019/myportfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Jomar0019/myportfolio/index.html",
+    "main.3757c491.css.map": "/Jomar0019/myportfolio/static/css/main.3757c491.css.map",
+    "main.7e56ef84.js.map": "/Jomar0019/myportfolio/static/js/main.7e56ef84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3757c491.css",
+    "static/js/main.7e56ef84.js"
+  ]
+}
