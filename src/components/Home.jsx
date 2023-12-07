@@ -12,7 +12,7 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-bold text-white/50'>I'm a Full Stack Developer.</h2>
             <p className='text-white/50 py-4 max-w-[700px]'>I'm a full-stack developer specializing in building(and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive full-stack web applications.</p>
             <div>
-                <button className='text-white/90 border-2 border-white/50 px-6 py-3 my-2 flex items-center hover:bg-white/90 duration-300 hover:border-white/90 hover:text-black'>View Work
+                <button className='home-btn'>View Work
                         <HiArrowNarrowRight className='ml-3' />
                 </button>
             </div>
