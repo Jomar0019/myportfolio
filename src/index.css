@@ -24,7 +24,7 @@
 /* NAVBAR */
 
 .nav {
-    @apply fixed w-full h-[80px] z-10 flex justify-between items-center px-4 text-gray-300
+    @apply fixed w-full h-[80px] shadow-md z-10 flex justify-between items-center px-4 text-black
 }
 
 .nav-item {
@@ -32,7 +32,7 @@
 }
 
 .mobile-nav {
-    @apply absolute top-0 left-0 w-full h-screen text-white/90 flex flex-col justify-center items-center
+    @apply absolute top-0 left-0 w-full h-screen text-[#1F1F1F] flex flex-col justify-center items-center
 }
 
 /* PAGES */
@@ -44,26 +44,24 @@
 /* TEXT  */
 
 .title {
-    @apply text-4xl font-bold text-white/90 inline border-b-4 border-[#2A86FF]
+    @apply text-4xl font-bold text-[#1b1c1e] inline border-b-4 border-[#2A86FF]
 }
 
 /* HOME  */
 .home-btn {
-    @apply text-white/90 border-2 border-white/50 px-6 py-3 my-2 flex items-center hover:bg-[#2A86FF] duration-300 hover:border-[#2A86FF] hover:text-white
+    @apply text-white/90 bg-[#2A86FF] border-white/50 px-6 py-3 my-2 flex items-center hover:bg-sky-700
 }
 
 /* SKILLS */
 
 .skill-card {
-    @apply hover:bg-white/10 rounded p-4 hover:scale-110 duration-500
+    @apply  p-4 hover:scale-105 duration-300 flex justify-center items-center flex-col cursor-pointer
 }
 
 
 /* WORK  */
-
-
 .work-content {
-    @apply relative overflow-hidden rounded-md
+    @apply relative overflow-hidden rounded-md shadow-lg border border-transparent
 }
 
 .work-img {
@@ -86,13 +84,13 @@
 
 
 .contact-input {
-    @apply focus:ring-0 focus:outline-none rounded p-2 bg-white/90
+    @apply border-[#303030] border focus:ring-0 focus:outline-none rounded px-6 py-3 bg-white/90
 }
 
 .contact-textbox {
-    @apply focus:ring-0 focus:outline-none rounded p-2 bg-white/90
+    @apply border-[#303030] border focus:ring-0 focus:outline-none rounded px-6 py-3 bg-white/90
 }
 
 .contact-btn {
-    @apply text-white/90 border-2 hover:bg-white/90 hover:text-black duration-300 px-4 py-3 my-5 flex mx-auto
+    @apply text-white bg-[#2A86FF] duration-300 px-4 py-3 my-5 flex mx-auto
 }

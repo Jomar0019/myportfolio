@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/w-logoT.png'
+import Logo from '../assets/b-logoT.png'
 import { Link } from 'react-scroll'
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
   }
 
   return (
-  <div className='nav dark-mode'>
+  <div className='nav light-mode'>
     <div>
       <Link 
         to="home" 
@@ -27,7 +27,7 @@ const NavBar = () => {
 
     {/* Menu */}
     <div className='hidden md:flex'>
-      <ul className='hidden md:flex text-white/90'>
+      <ul className='hidden md:flex text-[#1F1F1F] font-bold'>
         <li>
           <Link 
             to="home" 
@@ -86,7 +86,7 @@ const NavBar = () => {
     </div>
 
     {/* Mobile Menu  */}
-    <ul className={nav ? 'mobile-nav dark-mode' : 'hidden'}>
+    <ul className={nav ? 'mobile-nav light-mode text-[#1b1c1e]' : 'hidden'}>
       <li className='nav-item'>
         <Link 
           onClick={handleClick}

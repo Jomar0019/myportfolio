@@ -12,48 +12,48 @@ import Mongo from '../assets/mongo.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='page dark-mode'>
+    <div name='skills' className='page light-mode'>
 
       {/*  container  */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div>
+        <div className=''>
             <p className='title'>Skills</p>
-            <p className='py-4 text-white/50'>These are technologies I've worked with</p>
+            <p className='py-4 text-[#303030]'>These are technologies I've worked with</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={HTML} alt="hmtl" />
-                <p className='text-white/50 my-4'>HTML5</p>
+                <p className='text-[#303030] my-4'>HTML5</p>
             </div>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={CSS} alt="hmtl" />
-                <p className='text-white/50 my-4'>CSS3</p>
+                <p className='text-[#303030] my-4'>CSS3</p>
             </div>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={JavaScript} alt="hmtl" />
-                <p className='text-white/50 my-4'>JAVASCRIPT</p>
+                <p className='text-[#303030] my-4'>JAVASCRIPT</p>
             </div>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={ReactImg} alt="hmtl" />
-                <p className='text-white/50 my-4'>REACT</p>
+                <p className='text-[#303030] my-4'>REACT</p>
             </div>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={GitHub} alt="hmtl" />
-                <p className='text-white/50 my-4'>GITHUB</p>
+                <p className='text-[#303030] my-4'>GITHUB</p>
             </div>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={Node} alt="hmtl" />
-                <p className='text-white/50 my-4'>NODE JS</p>
+                <p className='text-[#303030] my-4'>NODE JS</p>
             </div>
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={Mongo} alt="hmtl" />
-                <p className='text-white/50 my-4'>MONGO DB</p>
+                <p className='text-[#303030] my-4'>MONGO DB</p>
             </div>
             
             <div className='skill-card'>
                 <img className='w-20 mx-auto' src={Tailwind} alt="hmtl" />
-                <p className='text-white/50 my-4'>TAILWINDCSS</p>
+                <p className='text-[#303030] my-4'>TAILWINDCSS</p>
             </div>
         </div>
         

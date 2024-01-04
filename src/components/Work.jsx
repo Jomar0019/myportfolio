@@ -1,9 +1,18 @@
 import React from 'react'
-import RealEstate from '../assets/projects/realestate.jpg'
+import Card from './Card'
+import data from '../ProjectsData'
 
 const Work = () => {
+
+  console.log(data)
+
+  const cards = data.map( item => {
+    return (
+      <Card img={item.img} code={item.code} demo={item.link} />
+    )
+  })
   return (
-    <div name="work" className='w-full md:h-screen dark-mode'>
+    <div name="work" className='w-full md:h-screen light-mode'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='title'>Work</p>
@@ -12,45 +21,8 @@ const Work = () => {
 
         <div className=' grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
 
-        <div className="group">
-          <div className="work-content">
-          <img
-              src={RealEstate}
-              class="work-img"
-              alt="Louvre" />
-              <div className="work-overlay">
-                <button className='work-light-btn'>Code</button>
-                <button className='work-dark-btn'>Demo</button>
-              </div>
-          </div>
-        </div>
-
-        <div className="group">
-          <div className="work-content">
-          <img
-              src={RealEstate}
-              class="work-img"
-              alt="Louvre" />
-              <div className="work-overlay">
-                <button className='work-light-btn'>Code</button>
-                <button className='work-dark-btn'>Demo</button>
-              </div>
-          </div>
-        </div>
-
-        <div className="group">
-          <div className="work-content">
-          <img
-              src={RealEstate}
-              class="work-img"
-              alt="Louvre" />
-              <div className="work-overlay">
-                <button className='work-light-btn'>Code</button>
-                <button className='work-dark-btn'>Demo</button>
-              </div>
-          </div>
-        </div>
-   
+        {cards}
+      
            
         </div>
 
